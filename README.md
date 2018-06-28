@@ -6,7 +6,7 @@
 
     motivacion insentivar el deporte en mi comunidad.
 
-    problematica e detectado que el indice de delincuencia y obecidad tanto en niños como en adultos, en mi comunidad a aumentado.
+    problematica e detectado que el indice de delincuencia ,obecidad tanto en niños como en adultos y consumo , venta de drogas ,en mi comunidad a aumentado.
 
 ## objetivo
 
