@@ -1,10 +1,49 @@
 #menu{
     background-color: brown;
+    
+    
 
 }
 
 
 #mapa{
+    display: flex;
+    border: 1px  blue solid;
+  
+    
+   
+        
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
 
-    border: 1px  blue;
+.flex-column{
+    flex-direction: column;
+    width: 100%;
+}
+
+#centerconteiner{
+
+    height:50vh ;
+}
+
+button{
+    border: 1px crimson solid;
+}
+
+.principalmapa{
+   
+   display:block;
+}
+
+.quienes{
+    border:1px greenyellow solid;
+    width: 25vh;
+
+}
+.somos{
+    border: 1px red solid;
+    width: 25vh;
 }
