@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Location } from '@angular/common';
 
 
 @Component({
@@ -9,16 +7,14 @@ import { Location } from '@angular/common';
   styleUrls: ['./eventos.component.css']
 })
 export class EventosComponent implements OnInit {
-  evento: Evento
-  constructor(
-    private route: ActivatedRoute,
-   
-    private location: Location
+  
+  constructor()
 
-  ) { }
+  { }
 
   ngOnInit() {
-    this.getEvento()
+  
+    
   }
 
 }

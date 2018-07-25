@@ -6,17 +6,23 @@ import { JugarComponent } from './jugar/jugar.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { QuienesComponent } from './quienes/quienes.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { PaginaprincipalComponent } from './paginaprincipal/paginaprincipal.component';
+
+import { FullCalendarModule } from 'ng-fullcalendar';
 
 @NgModule({
   declarations: [
     AppComponent,
     JugarComponent,
     EventosComponent,
-    QuienesComponent
+    QuienesComponent,
+    PaginaprincipalComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FullCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
