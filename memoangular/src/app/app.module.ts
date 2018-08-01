@@ -9,6 +9,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { PaginaprincipalComponent } from './paginaprincipal/paginaprincipal.component';
 
 import { FullCalendarModule } from 'ng-fullcalendar';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FullCalendarModule } from 'ng-fullcalendar';
     EventosComponent,
     QuienesComponent,
     PaginaprincipalComponent,
+    SidebarComponent,
     
   ],
   imports: [
