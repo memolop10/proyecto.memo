@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color:#ffff;
+}
+
+
+.quienes {
+    
+    border: 5px #ffff solid;
+    background-image: url("/assets/teamwork.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 40%;
+    
+    padding: 3px;
+    /* overflow: scroll; */
+
+}
+
+p{
+    color:#330B05;
+}

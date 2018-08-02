@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color: #ffff;
+}
+
+#padre{
+    display: grid;
+    grid-template-columns:2fr 2fr; 
+}
+
+
+/* .container{
+    margin-top: 20%;
+} */
+
+/* .carcardimg{
+    /* display:flex;
+    justify-content: right;
+
+}  */

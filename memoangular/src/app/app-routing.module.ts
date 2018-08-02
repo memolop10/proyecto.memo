@@ -24,8 +24,8 @@ const routes: Routes = [
   {
     path: 'quienes',
     component: QuienesComponent
-  }
-  //{ path: '', redirectTo: '/dashboard', pathMatch: 'full' }
+  },
+  { path: '', redirectTo: 'principal', pathMatch: 'full' }
 ]
 
 
