@@ -2,3 +2,20 @@ h1{
     text-align: center;
     color:#ffff;
 }
+
+
+button{
+    display: flex;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.principalmapa{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+}
+
+#mapa{
+    grid-column: 2/3;
+    margin-top:13vh ;
+}
