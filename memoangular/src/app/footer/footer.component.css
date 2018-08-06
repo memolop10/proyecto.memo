@@ -1,0 +1,23 @@
+#iconos{
+    border: 1px red solid;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+   
+    
+}
+
+img{
+    height: 94%;
+    width: 9%;
+   
+  
+  align-items: center;
+}
+
+
+#sociales{
+
+    margin-top: 46vh;
+    position: fixed;
+}
