@@ -1,15 +1,33 @@
-
+#centrado{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 #menu{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    margin-top: 42vh;
-
-    
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: space-around;
+    vertical-align: 50px;
+    height: 100px;
     color: #ffff;
-    
+}
 
+#menu > div{
+    min-width: 150px;
+    height: 150px;
+   line-height:150px;
+   background-position: center center;
+   font-size: 1.5em;
+}
+
+#x{
+    background-image: url("/assets/balon2.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    line-height: 150px;
+    text-align: center;
 }
 
 a{

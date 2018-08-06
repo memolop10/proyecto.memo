@@ -18,3 +18,16 @@ h1{
     justify-content: right;
 
 }  */
+
+#principal{
+    
+        margin-bottom: 40px;
+        max-height: 635px;
+        overflow: scroll;
+    
+    
+}
+
+.row{
+    margin-bottom: 10px;
+}
