@@ -10,6 +10,7 @@ import { PaginaprincipalComponent } from './paginaprincipal/paginaprincipal.comp
 
 import { FullCalendarModule } from 'ng-fullcalendar';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     QuienesComponent,
     PaginaprincipalComponent,
     SidebarComponent,
+    FooterComponent,
     
   ],
   imports: [

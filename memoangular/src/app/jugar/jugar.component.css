@@ -7,15 +7,30 @@ h1{
 button{
     display: flex;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 .principalmapa{
-        display:grid;
-        grid-template-columns: repeat(3, 1fr);
+     
+        display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+
+  border: 1px red solid;
+     
+    
 }
 
 #mapa{
     grid-column: 2/3;
-    margin-top:13vh ;
+    width: 50%;
+
+      
+    
+}
+
+
+#donde{
+    margin-top: 10vh;
 }
