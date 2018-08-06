@@ -2,3 +2,9 @@ h1{
     text-align: center;
     color:#ffff;
 }
+#mapa{
+    display: flex;
+    justify-content: center;
+    margin-left: 18%;
+
+}
