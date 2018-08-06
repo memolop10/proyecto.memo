@@ -1,7 +1,12 @@
 
 
 #menu{
-    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-top: 42vh;
+
+    
     color: #ffff;
     
 
@@ -10,10 +15,17 @@
 a{
     font-family: 'MedievalSharp', cursive;
     font-family: 'Anton', sans-serif;
-    margin-right: 10px;
+    
     color: #ffff;
+    text-align: center;
+    
 }
 
 #header{
     text-align: center;
+
+}
+
+#header a{
+    font-size: 200%;
 }

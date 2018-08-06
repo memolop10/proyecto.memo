@@ -2,9 +2,35 @@ h1{
     text-align: center;
     color:#ffff;
 }
-#mapa{
-    display: flex;
-    justify-content: center;
-    margin-left: 18%;
 
+
+button{
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.principalmapa{
+     
+        display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+
+  border: 1px red solid;
+     
+    
+}
+
+#mapa{
+    grid-column: 2/3;
+    width: 50%;
+
+      
+    
+}
+
+
+#donde{
+    margin-top: 10vh;
 }
