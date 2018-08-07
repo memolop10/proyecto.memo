@@ -1,22 +1,33 @@
 h1{
+    margin-top: 5px;
     text-align: center;
     color:#ffff;
+}
+
+span{
+    bottom: 0;
+    margin-left: 0;
+    position: absolute;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    color: rgba(195, 11, 11, 0.534);
+    /* text-shadow:5px 5px 5px rgb(179, 116, 0) */
+    
+    
 }
 
 
 .quienes {
     
-    border: 5px #ffff solid;
-    background-image: url("/assets/teamwork.jpg");
+    
+    border-radius: 5px; 
+    background-image: url("/assets/equipo.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: auto;
-    margin-top: 5%;
-    width: 40%;
-   height: 70vh;
-    justify-content: center;
-    align-items: center;
-    
+    margin-top: 2%; 
+   height: 56vh;
+    position: relative;
     padding: 3px;
     /* overflow: scroll; */
 
@@ -24,4 +35,25 @@ h1{
 
 p{
     color:#330B05;
+}
+
+#principal{
+    position: relative;
+    width: 100%;
+}
+
+#descripcion{
+    margin: auto;
+    margin-top: 3px;
+    background-color: rgb(5, 121, 141);
+   
+    border-radius: 5px;
+    padding: 4px;
+}
+
+h3{
+    color: #ffff;
+    text-align: center;
+    
+    
 }

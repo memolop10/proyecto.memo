@@ -1,5 +1,5 @@
 #iconos{
-    border: 1px red solid;
+    
     display: grid;
     grid-template-columns: repeat(4, 1fr);
    

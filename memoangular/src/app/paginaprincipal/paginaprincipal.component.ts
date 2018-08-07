@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaginaprincipalComponent implements OnInit {
 
+  jugar:boolean;
+
   constructor() { }
 
   ngOnInit() {

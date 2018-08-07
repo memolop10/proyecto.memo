@@ -5,26 +5,53 @@ h1{
 
 
 button{
+    border:1px yellow solid; 
     display: flex;
     margin: auto;
+    justify-content: center;
+
     margin-top: 10vh;
-}
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    font-weight: 300;
+    font-size: 25px;
+    
+    color: #ffffff;
+    background-color: #861720;
+    border-radius: 15px;
+    border: 3px double #ffffff;
+  }
+  button:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
 
 .principalmapa{
-     
-        display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15vh;
+    border: 1px red solid;
+        /* display: grid;
+        grid-template-rows: 2fr 1fr; */
+  
+  
 
-  border: 1px red solid;
+  
      
     
 }
 
 #mapa{
-    grid-column: 2/3;
-    width: 50%;
+    border:1px blue solid;
+    display: flex;
+    justify-content: center;
+    height: 314px;
+    width: 54%;
+   
+
+    
+    margin: auto;
 
       
     
@@ -32,5 +59,11 @@ button{
 
 
 #donde{
-    margin-top: 10vh;
+
+    margin-top: 50px;
+}
+
+iframe{
+    height: 100%;
+    width: 100%
 }

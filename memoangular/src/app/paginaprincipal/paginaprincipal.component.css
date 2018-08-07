@@ -22,7 +22,7 @@
    font-size: 1.5em;
 }
 
-#x{
+.x{
     background-image: url("/assets/balon2.png");
     background-size: 150px;
     background-repeat: no-repeat;
@@ -50,3 +50,21 @@ a{
 }
 
 
+#show{
+    
+    
+    border: 1px rgb(252, 0, 0) solid;
+    position: absolute;
+    left: 50%;
+    top: 71%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+p{
+    color:#ffff;
+}
