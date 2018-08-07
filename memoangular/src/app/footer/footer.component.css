@@ -28,12 +28,13 @@ footer{
     line-height: 40px;
     background-color: rgb(36, 32, 32);
     opacity: 0.6;
+    margin-bottom:3px ;
 }
 
 
 
 footer #iconos .facebook:hover{
-    transform: scale(1.9, 1.9);
+    transform: scale(1.4, 1.4);
   
 
 }
@@ -44,13 +45,13 @@ footer #iconos img{
 }
 
 footer #iconos .twitter:hover{
-    transform: scale(1.9, 1.9);
+    transform: scale(1.4, 1.4);
 }
 
 footer #iconos .instagram:hover{
-    transform: scale(1.9, 1.9);
+    transform: scale(1.4, 1.4);
 }
 
 footer #iconos .youtube:hover{
-    transform: scale(1.9, 1.9);
+    transform: scale(1.4, 1.4);
 }

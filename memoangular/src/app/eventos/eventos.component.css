@@ -80,3 +80,15 @@ figure .trasera hr{
     margin-bottom: 20px;
     opacity: .5;
 }
+
+
+@media screen and (max-width:992px){
+    figure .trasera{
+        backface-visibility: visible;
+        transform: perspective(600px) rotateY(0deg)
+    }
+    .contenedor_tarjeta{
+        transform: perspective(600px) rotateY(0deg)
+
+    }
+}
