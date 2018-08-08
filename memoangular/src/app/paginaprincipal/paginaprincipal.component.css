@@ -60,11 +60,20 @@ a{
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.7;
     border-radius: 5px;
-    padding: 2px;
+    padding: 5px;
 }
 
 p{
     color:#ffff;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;
+
+}
+
+h2{
+    color:#ffff;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;   
 }

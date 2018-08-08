@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class PaginaprincipalComponent implements OnInit {
 
   jugar:boolean;
+  eventos:boolean;
+  quienes:boolean;
 
   constructor() { }
 
