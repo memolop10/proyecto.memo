@@ -27,11 +27,15 @@ span{
     background-image: url("/assets/equipo.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin: 2%;
+    margin:auto;
     margin-top: 2%; 
    height: 56vh;
     position: relative;
     padding: 3px;
+    width: 65%;
+    
+  
+    padding: 15px;
     /* overflow: scroll; */
 
 }
