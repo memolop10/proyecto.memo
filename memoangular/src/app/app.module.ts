@@ -8,7 +8,7 @@ import { QuienesComponent } from './quienes/quienes.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { PaginaprincipalComponent } from './paginaprincipal/paginaprincipal.component';
 
-import { FullCalendarModule } from 'ng-fullcalendar';
+// import { FullCalendarModule } from 'ng-fullcalendar';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -26,7 +26,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FullCalendarModule
+    // FullCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
