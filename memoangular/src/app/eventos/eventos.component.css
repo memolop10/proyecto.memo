@@ -10,13 +10,11 @@ h1{
     
 
 .contenedor{
-    height: 704px;
+    /* height: 704px; */
     margin:  auto;
-    display: flex;
-    flex-direction: row;
-    
-  justify-content: center;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
 }
 
         .contenedor_tarjeta:hover figure{
