@@ -40,14 +40,7 @@ a{
     
 }
 
-#header{
-    text-align: center;
 
-}
-
-#header a{
-    font-size: 200%;
-}
 
 
 #show{
@@ -76,4 +69,13 @@ h2{
     color:#ffff;
     font-family: 'MedievalSharp', cursive;
     font-family: 'Anton', sans-serif;   
+}
+
+h1{
+    color:#ffff;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+      
+    
 }
