@@ -14,8 +14,8 @@ span{
     position: absolute;
     font-family: 'Luckiest Guy', cursive;
     font-size: 50px;
-    color: rgba(195, 11, 11, 0.534);
-    /* text-shadow:5px 5px 5px rgb(179, 116, 0) */
+    color: rgba(255, 255, 255, 0.795);
+    text-shadow:5px 5px 5px rgb(143, 27, 42) 
     
     
 }
@@ -34,6 +34,9 @@ span{
     position: relative;
     padding: 3px;
     width: 65%;
+    -webkit-box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
     
   
     padding: 15px;

@@ -33,17 +33,11 @@ button{
 
 
 .principalmapa{
-    border: 1px red solid;
+    /*border: 1px red solid;*/
     
     height: 419px;
-        /* display: grid;
-        grid-template-rows: 2fr 1fr; */
-  
-  
+    margin-top: 20px
 
-  
-     
-    
 }
 
 
@@ -58,6 +52,9 @@ button{
     border-radius: 5px;
     
     margin: auto;
+    -webkit-box-shadow: 3px 3px 70px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 3px 70px 6px rgba(0,0,0,1);
+    box-shadow: 3px 3px 70px 6px rgba(0,0,0,1);
 
       
     

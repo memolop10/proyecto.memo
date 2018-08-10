@@ -16,10 +16,10 @@ export class JugarComponent implements OnInit {
 
   ngOnInit() {
     
-    var mymap = L.map('mapa').setView([19.414462, -99.050053], 13);
+    var mymap = L.map('mapa').setView([19.414462, -99.050053], 12);
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
       maxZoom: 18,
-      id: 'mapbox.streets',
+      id: 'mapbox.dark',
       accessToken: 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw'
     }).addTo(mymap);
 
@@ -63,8 +63,31 @@ export class JugarComponent implements OnInit {
     L.marker([19.446984, -99.084207], {
       icon: fieldg
     }).addTo(mymap);
+    L.marker([19.445476, -99.127233], {
+      icon: fieldg
+    }).addTo(mymap);
+    L.marker([19.392296, -99.012435], {
+      icon: fieldg
+    }).addTo(mymap);
+    L.marker([19.406854, -99.081816], {
+      icon: fieldg
+    }).addTo(mymap);
 
+    L.marker([19.409283, -99.069715], {
+      icon: fieldg
+    }).addTo(mymap);
+    L.marker([19.430288, -99.058565], {
+      icon: fieldg
+    }).addTo(mymap);
 
+    L.marker([19.421593, -99.018795], {
+      icon: fieldg
+    }).addTo(mymap);
+
+    L.marker([19.419604, -99.010956], {
+      icon: fieldg
+    }).addTo(mymap);
+    
   }
 
   

@@ -83,6 +83,17 @@ figure .trasera hr{
 }
 
 
+a{
+    font-family: 'Bangers', cursive;
+    font-size: 40px
+}
+
+p{
+    font-family: 'Ranga', cursive;
+    font-size: 20px;
+}
+
+
 @media screen and (max-width:992px){
     figure .trasera{
         backface-visibility: visible;
