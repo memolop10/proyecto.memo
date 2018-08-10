@@ -44,6 +44,8 @@
     opacity: 0.8;
     color: #ffff;
     height: 35px;
+    position: fixed;
+    width: 250px;
   }
   
   .sidebar-nav li {
